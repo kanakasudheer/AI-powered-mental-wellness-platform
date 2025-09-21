@@ -1,0 +1,57 @@
+{
+  "sample_conversations": [
+    {
+      "scenario": "exam_anxiety",
+      "conversation": [
+        {
+          "user": "I have exams next week and I can't stop worrying",
+          "ai_response": "I understand you're feeling anxious about your exams. It's completely normal to feel this way. Let's try a quick breathing exercise together.",
+          "suggested_activities": ["breathing_exercise", "grounding_technique"],
+          "sentiment": "anxiety"
+        }
+      ]
+    },
+    {
+      "scenario": "social_pressure",
+      "conversation": [
+        {
+          "user": "Everyone seems to be doing better than me",
+          "ai_response": "Comparing ourselves to others can be really tough. Remember, everyone's journey is different and you're doing your best.",
+          "suggested_activities": ["self_compassion", "gratitude_journal"],
+          "sentiment": "sad"
+        }
+      ]
+    },
+    {
+      "scenario": "family_stress",
+      "conversation": [
+        {
+          "user": "My parents have too many expectations from me",
+          "ai_response": "Family pressure can feel overwhelming. It's important to remember that your worth isn't defined by meeting everyone's expectations.",
+          "suggested_activities": ["journaling", "mindfulness"],
+          "sentiment": "stress"
+        }
+      ]
+    }
+  ],
+  "crisis_examples": [
+    {
+      "user_input": "I don't see any point in living anymore",
+      "ai_response": "I'm really concerned about you. Please reach out to NIMHANS helpline: 080-46110007 or iCALL: 9152987821. You matter and help is available.",
+      "type": "crisis_intervention"
+    }
+  ],
+  "wellness_activities": {
+    "breathing_exercises": [
+      {
+        "name": "4-7-8 Technique",
+        "steps": ["Inhale for 4 counts", "Hold for 7 counts", "Exhale for 8 counts", "Repeat 4 times"]
+      }
+    ],
+    "affirmations": [
+      "I am capable of handling challenges",
+      "My feelings are valid and temporary",
+      "I deserve kindness, especially from myself"
+    ]
+  }
+}
