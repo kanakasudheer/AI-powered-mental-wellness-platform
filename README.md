@@ -1,23 +1,30 @@
 # 🌱 MitraMind - AI Mental Wellness Companion
 
-A minimal AI-powered mental wellness companion designed specifically for Indian youth, providing confidential support and culturally empathetic conversations.
+**AI-powered mental wellness platform specifically designed for Indian youth**
 
 ## 🚀 Quick Start
 
-### Streamlit Chatbot (Recommended)
+### 1. Clone Repository
 ```bash
-cd mitramind
-python -m streamlit run streamlit_app.py
+git clone https://github.com/kanakasudheer/AI-powered-mental-wellness-platform.git
+cd AI-powered-mental-wellness-platform
 ```
 
-### Command Line Interface
+### 2. Install Dependencies
 ```bash
-cd mitramind
-python main.py
+pip install -r requirements.txt
 ```
 
-### Windows Users
-Double-click `start_chatbot.bat` to launch the web interface
+### 3. Configure API Key
+```bash
+cp .env.example .env
+# Edit .env and add your Gemini API key
+```
+
+### 4. Run Application
+```bash
+streamlit run streamlit_app.py
+```
 
 ## ✨ Core Features
 
@@ -28,7 +35,7 @@ Double-click `start_chatbot.bat` to launch the web interface
 - Context-aware responses
 
 ### 2. **Interactive Web Interface**
-- Modern Streamlit-based chatbot with 4 tabs
+- Modern Streamlit-based chatbot with 5 tabs
 - Real-time mood tracking sidebar
 - Quick access to wellness tools
 - Mobile-friendly design
@@ -51,76 +58,57 @@ Double-click `start_chatbot.bat` to launch the web interface
 - Level progression (Beginner to Champion)
 - Achievement badges and milestones
 
-### 6. **Integrated Wellness Tools**
-- Daily affirmations (+10 points)
-- Breathing exercises (+15 points)
-- Mindfulness activities
-- Journaling prompts (+20 points)
+### 6. **Daily Wellness Coach**
+- Personalized daily nudges
+- Journaling prompts, mindfulness activities
+- Gratitude reflection reminders
+- Micro-habits for busy students
 
 ### 7. **Crisis Support**
 - Automatic crisis detection
-- Immediate helpline resources
+- Immediate helpline resources (NIMHANS, iCALL)
 - Professional referral guidance
 
-## 🎯 Available Commands
+## 🛡️ Safety & Privacy
 
-- **Chat naturally** - Just type your thoughts and feelings
-- `mood` - Track your daily mood (1-5 scale)
-- `wellness` - Access wellness activities
-- `trends` - View your mood patterns
-- `resources` - Get crisis support resources
-- `help` - Show available commands
-- `quit` - Exit the application
-
-## 🛡️ Privacy & Safety
-
-- **Confidential**: All conversations are private
-- **Crisis Detection**: Automatic identification of high-risk situations
-- **Professional Resources**: Direct connection to NIMHANS, iCALL helplines
-- **No Data Storage**: Uses temporary in-memory data only
+- Crisis detection with immediate helpline resources
+- Privacy-first design with session-based storage
+- Integration with Indian mental health professionals
+- No permanent storage of sensitive conversations
 
 ## 📞 Emergency Resources
 
-- **NIMHANS Helpline**: 080-46110007
+- **NIMHANS**: 080-46110007
 - **iCALL**: 9152987821
 - **Vandrevala Foundation**: 9999666555
 
-## 🎨 Sample Interaction
-
-```
-🌱 Welcome to MitraMind - Your Mental Wellness Companion
-💬 You: I'm feeling really anxious about my exams
-
-🤖 MitraMind: I understand you're feeling anxious. Let's try a quick breathing exercise together.
-
-💡 Suggested activities: breathing_exercise, grounding_technique, mindfulness
-```
-
 ## 🔧 Technical Architecture
 
-- **Gemini AI**: Google's Gemini 1.5 Flash for advanced conversational AI
-- **Streamlit**: Modern web interface with real-time chat
-- **Mood Tracker**: Temporal mood analysis with trend detection
-- **Wellness Content**: Curated mental health activities and resources
-- **Crisis Detection**: Keyword-based safety monitoring
+- **AI Engine**: Google Gemini 1.5 Flash API
+- **Frontend**: Streamlit web interface
+- **Backend**: Python microservices architecture
+- **Analytics**: Pandas for data insights
+- **Storage**: Session-based (privacy-first)
 
 ## 🌍 Cultural Adaptation
 
 - Designed for Indian youth mental health context
 - Integrated with local helplines (NIMHANS, iCALL)
 - Culturally sensitive crisis intervention
-- Stigma-aware communication patterns
+- Understanding of academic pressure (JEE, NEET, Board exams)
 
-## 📈 Future Enhancements
+## 🤝 Contributing
 
-- Multi-language support (Hindi, Telugu, Tamil)
-- Google Cloud Vertex AI integration for advanced features
-- Mobile app development
-- Community forum features
-- Gamified wellness challenges
-- Voice chat capabilities
-- Mood analytics dashboard
+1. Fork the repository
+2. Create feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit changes (`git commit -m 'Add amazing feature'`)
+4. Push to branch (`git push origin feature/amazing-feature`)
+5. Open Pull Request
+
+## ⚠️ Disclaimer
+
+MitraMind is a supportive tool, not a replacement for professional mental health care. If you're in crisis, please contact the helplines above or seek immediate professional help.
 
 ---
 
-**Remember**: MitraMind is a supportive tool, not a replacement for professional mental health care. If you're in crisis, please reach out to the helplines provided or seek immediate professional help.
+**Empowering Indian youth, one conversation at a time** 🌱
